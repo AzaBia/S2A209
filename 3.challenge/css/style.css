@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body {
+  line-height:1.7;
+  font-size:16px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont,"Helvetica Neue","游ゴシック medium",yuGothic,yuGothicM,"Hiragino kaku Gothic ProN",meiryo,sans-serif;
+  color:#000;
+}
+a,
+a:link{
+  color:#3585b7;
+}
+a:visited{
+  color:#6252b7;
+}
+a:hover{
+  text-decoration: none;
+  color:#555;
+}
+header {
+  display:flex;
+}
+header h1{
+  margin:20px 0 0 20px;
+}
+header nav{
+  margin:0 0 0 auto;
+}
+header nav ul {
+  list-style-type:none;
+  margin:20px 0;
+  padding:0;
+  display:flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+display:inline-block;
+padding:10px 15px;
+text-decoration:none;
+color:#000;
+}
+
+header nav ul li a:hover {
+  color:#888;
+}
+
+
+footer {
+  background:#f2f8f8;
+  padding:20px;
+}
+
+footer ul {
+  list-style-type:none;
+  margin:0 0 5px;
+  display:flex;
+  justify-content:flex-end;
+}
+
+footer ul li {
+  margin:0 0 0 20px;
+}
+
+footer ul li a,
+footer ul li a:link,
+footer ul li a:visited{
+  text-decoration:none;
+  font-size:13px;
+  color:#000;
+}
+
+footer ul li a:hover {
+  color:#888;
+}
+
+footer p {
+  margin:0;
+  text-align:right;
+  color:#888;
+}
+
+
+main .inner {
+  width:990px;
+  margin:50px auto;
+}
+
+main h2 {
+  margin:50px 0 20px;
+  font-weight:normal;
+  font-size:25px;
+  color:#00b6bd
+}
+
+main p {
+  margin:0 0 20px;
+}
+
+main dl {
+  width:100%;
+}
+
+main dl dt {
+  float:left;
+  clear:both;
+  padding:10px 0;
+}
+
+main dl dd {
+  border-bottom:solid 1px #ccc;
+  margin:0;
+  padding:10px 0 10px 15%;
+}
